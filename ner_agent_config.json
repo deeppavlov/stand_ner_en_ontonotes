@@ -1,0 +1,23 @@
+{
+	"kpi_name":"ner_en_ontonotes",
+    "api_host":"0.0.0.0",
+    "api_port":6010,
+    "api_debug":0,
+	"kpis":
+	{
+		"ner_en_ontonotes":
+		{
+			"settings_kpi":
+				{
+					"rest_url":""
+				},
+			"settings_agent":
+				{
+					"model_dir":"model",
+					"model_file":"model.ckpt",
+					"dict_file":"dicts.txt",
+					"embedding_file":"glove.6B.100d.txt"
+				}
+		}
+	}
+}
