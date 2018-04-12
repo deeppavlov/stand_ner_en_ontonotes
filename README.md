@@ -28,7 +28,6 @@
     ```
     ./run_ner_en_ontonotes.sh
     ```
-<!---
 ## Building and running with Docker:
 1. If necessary, build Base Docker image from:
 
@@ -36,15 +35,14 @@
   
 2. Clone the repo and `cd` to project root:
     ```
-    git clone https://github.com/deepmipt/stand_ner_en.git
-    cd stand_ner_en
+    git clone https://github.com/deepmipt/stand_ner_en_ontonotes.git
+    cd stand_ner_en_ontonotes
     ```
 3. Build Docker image:
    ```
-   sudo docker build -t stand/ner_en .
+   sudo docker build -t stand/ner_en_ontonotes .
    ```
 4. Run Docker image:
    ```
-   sudo docker run -p <host_port>:6006 -v /path/to/host/vol/map/dir:/vol stand/ner_en
+   sudo docker run -p <host_port>:6010 -v </path/to/host/vol/map/dir>:/logs stand/ner_en_ontonotes
    ```
--->
